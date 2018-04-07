@@ -89,24 +89,29 @@ const LivePlayer = (`
               poster={'https://img.youtube.com/vi/iRZ2Sh5-XuM/hqdefault.jpg'}
               src={[
                 {
-                  src: "assets/store_720.mp4",
-                  value: 720,
+                  src: "http://111.223.50.12:8081/liveNimble/ch03h/playlist.m3u8",
+                  value: HD1,
                   size: 12.9,
-                  duration: 0.48,
                   fps: 60,
                   default: true,
                 },
                 {
-                  src: 'assets/store_480.mp4',
-                  value: 480,
-                  size: 4.3,
-                  duration: 0.48,
+                  src: 'http://111.223.50.12:8081/liveNimble/ch04h/playlist.m3u8',
+                  value: HD2,
+                  size: 12.9,
+                  fps: 60,
                 },
                 {
-                  src: 'assets/store_144.webm',
-                  value: 144,
-                  size: 0.4822,
-                  duration: 0.48,
+                  src: 'http://111.223.50.12:8081/liveNimble/ch05h/playlist.m3u8',
+                  value: HD3,
+                  size: 12.9,
+                  fps: 60,
+                },
+                {
+                  src: 'http://111.223.50.12:8081/liveNimble/ch06h/playlist.m3u8',
+                  value: HD4,
+                  size: 12.9,
+                  fps: 60,
                 }
               ]}
               annotation_url={'https://gist.githubusercontent.com/dsslimshaddy/ca3163ba1cb1d610f3b1aef3cb51eecf/raw?cache='+Math.random()}
